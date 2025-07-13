@@ -1,0 +1,68 @@
+name: "🧪 Beta Plugin Submission"
+description: Submit a beta-stage Obsidian plugin to awesome-obsidian-beta-plugins
+title: "[Plugin]: "
+labels: ["beta", "plugin"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        <!-- Thanks for submitting a beta plugin! Please fill out all fields below. -->
+  - type: input
+    id: id
+    attributes:
+      label: Plugin ID
+      description: Unique identifier (matches manifest.json `"id"`)
+      placeholder: e.g. `nldates-obsidian`
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Plugin Name
+      placeholder: e.g. Natural Language Dates
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Author
+      description: Author or maintainer name(s)
+      placeholder: e.g. Argentina Ortega Sainz
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: GitHub Repo
+      description: e.g. `username/repo-name`
+      placeholder: e.g. argenos/nldates-obsidian
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Short Description
+      description: One-sentence summary of what the plugin does
+      placeholder: e.g. Create date‑links based on natural language
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Official Plugin Status
+      description: Choose the current status in the official plugin registry
+      options:
+        - not submitted
+        - submitted
+        - blocked
+        - approved
+    validations:
+      required: true
+  - type: checkboxes
+    id: agree
+    attributes:
+      label: Code of Conduct
+      description: By submitting, you agree to follow our [Code of Conduct](./CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree
+          required: true
