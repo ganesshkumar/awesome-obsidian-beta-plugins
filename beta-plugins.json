@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "dayframe",
+    "name": "Dayframe",
+    "author": "ganesshkumar",
+    "description": "like a picture frame but for your daily notes.",
+    "repo": "ganesshkumar/obsidian-dayframe",
+    "status": "Unknown"
+  },
+  {
+    "id": "pochoir",
+    "name": "Pochoir",
+    "author": "furiouzz",
+    "description": "Demonstrates some of the capabilities of the Obsidian API.",
+    "repo": "FuriouZz/obsidian-pochoir",
+    "status": "Unknown"
+  }
+]
