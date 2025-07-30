@@ -11,8 +11,24 @@
     "id": "pochoir",
     "name": "Pochoir",
     "author": "furiouzz",
-    "description": "Demonstrates some of the capabilities of the Obsidian API.",
+    "description": "Note templating made easy with few configuration and no coding experience",
     "repo": "FuriouZz/obsidian-pochoir",
+    "status": "Unknown"
+  },
+  {
+    "id": "datacore",
+    "name": "Datacore",
+    "author": "Michael Brenan",
+    "description": "Reactive query engine backed by Javascript or a custom query language.",
+    "repo": "blacksmithgu/datacore",
+    "status": "Unknown"
+  },
+  {
+    "id": "todoist-board",
+    "name": "Todoist Board",
+    "author": "JD",
+    "description": "Display Todoist tasks as draggable cards inside Obsidian with full sync support.",
+    "repo": "propranolol11/todoist-board",
     "status": "Unknown"
   }
 ]

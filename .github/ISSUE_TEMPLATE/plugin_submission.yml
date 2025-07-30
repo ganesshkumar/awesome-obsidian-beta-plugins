@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        <!-- Thanks for submitting a beta plugin! Please fill out all fields below. -->
+        Thanks for submitting a beta plugin! Please fill out all fields below. These are mostly the fields from the manifest.json of the beta plugin.
   - type: input
     id: id
     attributes:
